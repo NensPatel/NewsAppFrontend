@@ -1,0 +1,56 @@
+.truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: calc(1.2em * 3);
+  line-height: 1.2;
+}
+.fixed-size-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+button {
+  border-radius: 2px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+button:hover {
+  background-color: transparent;
+  border: solid 1px;
+  border-color: red;
+  border-radius: 2px;
+}
+body {
+  background-color: black;
+}
+.backdrop-blur {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.half-card-body{
+  background-color: #1e1e1e;
+}
+.pointer{
+  cursor: pointer;
+}
+.cards {
+  transition: all 0.3s ease-in-out;
+}
+.cards:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(33, 21, 199, 0.7), 0 6px 20px rgba(204, 38, 38, 0.9);
+}
+.navbar2{
+  color: aqua;
+}
+.navbar2:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
